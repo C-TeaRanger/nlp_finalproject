@@ -1,0 +1,31 @@
+# 1. 忽略 Python 编译文件
+__pycache__/
+*.py[cod]
+
+# 2. 忽略数据集和数据目录
+data/
+dataset/
+*.csv
+*.jsonl
+
+# 3. 忽略模型权重 (大文件)
+checkpoints/
+*.pth
+*.pt
+*.bin
+*.ckpt
+*.safetensors
+output/
+
+# 4. 忽略日志
+logs/
+*.log
+wandb/
+
+# 5. 忽略 IDE 配置
+.vscode/
+.idea/
+.DS_Store
+
+# 6. 忽略 Jupyter Notebook 的 checkpoint
+.ipynb_checkpoints/
