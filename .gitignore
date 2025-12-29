@@ -3,10 +3,10 @@ __pycache__/
 *.py[cod]
 
 # 2. 忽略数据集和数据目录
-data/
-dataset/
-*.csv
-*.jsonl
+#data/
+#dataset/
+#*.csv
+#*.jsonl
 
 # 3. 忽略模型权重 (大文件)
 checkpoints/
